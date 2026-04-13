@@ -1,5 +1,5 @@
 # Railway deployment
-FROM node:lts-trixie-slim AS base
+FROM node:22-slim AS base
 ARG USER_UID=1000
 ARG USER_GID=1000
 RUN apt-get update \
